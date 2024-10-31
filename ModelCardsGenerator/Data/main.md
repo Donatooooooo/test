@@ -19,8 +19,8 @@ integrate Random Forest
 ## Your Commands Below
 integrate KNN
     /description.md
-    /how_to_use.md
+    /how_To_Use.md
 
 integrate KNN
     /description.md
-    /how_to_use.md
+    /how_To_Use.md
