@@ -17,10 +17,4 @@ integrate Random Forest
     /limitations.md
 ```
 ## Your Commands Below
-integrate KNN
-    /description.md
-    /howToUse.md
 
-integrate Random Forest
-    /description.md
-    /howToUse.md
