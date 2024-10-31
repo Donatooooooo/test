@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/608712203149203599/537fa2dc05304b7a84b4eb6d79e75213/artifacts
+end_time: 1730365662150
+entry_point_name: ''
+experiment_id: '608712203149203599'
+lifecycle_stage: active
+run_id: 537fa2dc05304b7a84b4eb6d79e75213
+run_name: tasteful-worm-936
+run_uuid: 537fa2dc05304b7a84b4eb6d79e75213
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730365651147
+status: 3
+tags: []
+user_id: donat

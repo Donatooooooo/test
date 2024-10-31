@@ -1,0 +1,4 @@
+# Byte-compiled and optimized
+__pycache__/
+*.py[cod]
+*$py.class

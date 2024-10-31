@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/608712203149203599/2043014a660b4a7083e96153997f5778/artifacts
+end_time: 1730365723899
+entry_point_name: ''
+experiment_id: '608712203149203599'
+lifecycle_stage: active
+run_id: 2043014a660b4a7083e96153997f5778
+run_name: unequaled-worm-641
+run_uuid: 2043014a660b4a7083e96153997f5778
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730365716234
+status: 3
+tags: []
+user_id: donat

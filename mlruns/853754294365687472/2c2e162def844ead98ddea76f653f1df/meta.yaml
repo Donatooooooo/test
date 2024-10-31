@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/853754294365687472/2c2e162def844ead98ddea76f653f1df/artifacts
+end_time: 1730281687136
+entry_point_name: ''
+experiment_id: '853754294365687472'
+lifecycle_stage: active
+run_id: 2c2e162def844ead98ddea76f653f1df
+run_name: aged-asp-129
+run_uuid: 2c2e162def844ead98ddea76f653f1df
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730281676497
+status: 3
+tags: []
+user_id: donat

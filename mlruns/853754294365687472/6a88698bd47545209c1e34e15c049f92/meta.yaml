@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/853754294365687472/6a88698bd47545209c1e34e15c049f92/artifacts
+end_time: 1730278663831
+entry_point_name: ''
+experiment_id: '853754294365687472'
+lifecycle_stage: active
+run_id: 6a88698bd47545209c1e34e15c049f92
+run_name: caring-duck-973
+run_uuid: 6a88698bd47545209c1e34e15c049f92
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730278654074
+status: 3
+tags: []
+user_id: donat

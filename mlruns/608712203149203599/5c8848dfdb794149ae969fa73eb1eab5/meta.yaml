@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/608712203149203599/5c8848dfdb794149ae969fa73eb1eab5/artifacts
+end_time: 1730365729743
+entry_point_name: ''
+experiment_id: '608712203149203599'
+lifecycle_stage: active
+run_id: 5c8848dfdb794149ae969fa73eb1eab5
+run_name: debonair-steed-10
+run_uuid: 5c8848dfdb794149ae969fa73eb1eab5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730365724005
+status: 3
+tags: []
+user_id: donat

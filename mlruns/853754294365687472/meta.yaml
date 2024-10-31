@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/853754294365687472
+creation_time: 1730278418485
+experiment_id: '853754294365687472'
+last_update_time: 1730278418485
+lifecycle_stage: active
+name: BrestCancerClassification
