@@ -23,7 +23,7 @@ jobs:
           run: |
             cd ModelCardsGenerator/src/Templates
             COMMENT=$(jq -r '.commentPR1' env.json)
-            echo $COMMENT
+            echo "$COMMENT"
             PR_NUMBER=${{ github.event.pull_request.number }}
 
             COMMENTS_URL="https://api.github.com/repos/${{ github.repository }}/issues/$PR_NUMBER/comments"
