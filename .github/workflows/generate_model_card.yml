@@ -85,7 +85,9 @@ jobs:
           run: |
             git config --local user.email "action@github.com"
             git config --local user.name "GitHub Action"
-            git add .
-            git commit -m "Model Cards generated"
-            git pull --rebase origin ${{ github.head_ref }}
-            git push origin HEAD:${{ github.head_ref }}
+            if [[ $(git status --porcelain ModelCards/) ]]; then
+              git add .
+              git commit -m "Model Cards generated"
+              git pull --rebase origin ${{ github.head_ref }}
+              git push origin HEAD:${{ github.head_ref }}
+            fi
