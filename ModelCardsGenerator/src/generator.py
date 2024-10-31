@@ -8,8 +8,8 @@ import os, warnings
 warnings.filterwarnings("ignore")
 
 class ModelCardGenerator:
-    def __init__(self, uri = ""):
-        self.client = MlflowClient(uri, uri)
+    def __init__(self):
+        self.client = MlflowClient()
         self.output = Logger()
         
 

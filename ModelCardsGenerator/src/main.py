@@ -8,7 +8,7 @@ import sys
 def generator():
     output = Logger()
     try:
-        generator = ModelCardGenerator("http://127.0.0.1:5000/")
+        generator = ModelCardGenerator()
         lineage = generator.modelLineage()
 
         parsedInfo = None
@@ -34,7 +34,7 @@ def generator():
 def integrator():
     output = Logger()
     try:
-        generator = ModelCardGenerator("http://127.0.0.1:5000/")
+        generator = ModelCardGenerator()
         
         parsedInfo = parser()
         generator.forceIntegrate(parsedInfo)
