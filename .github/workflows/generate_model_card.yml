@@ -37,7 +37,8 @@ jobs:
         - name: Comment starting generation
           if: env.exists == 'false'
           run: |
-            COMMENT= $(jq -r '.commentPR1' ModelCardsGenerator/src/Templates/env.json)
+            cd ModelCardsGenerator/src/Templates
+            COMMENT=$(jq -r '.commentPR1' env.json)
             PR_NUMBER=${{ github.event.pull_request.number }}
             PR_NUMBER=${{ github.event.pull_request.number }}
             curl -X POST \
