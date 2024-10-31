@@ -83,6 +83,8 @@ jobs:
         - name: Commit and push Model Cards
           if: env.exists == 'false'
           run: |
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
             git add .
             git commit -m "Model Cards generated"
             git pull --rebase origin ${{ github.head_ref }}
