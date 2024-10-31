@@ -40,7 +40,7 @@ jobs:
         if: env.exists == 'true'
         run: |
           cd ModelCardsGenerator/src/Templates
-          COMMENT= $(jq '.commentPR2' env.json)
+          COMMENT=$(jq '.commentPR2' env.json)
           PR_NUMBER=${{ github.event.pull_request.number }}
           PR_NUMBER=${{ github.event.pull_request.number }}
           curl -X POST \
@@ -80,12 +80,13 @@ jobs:
       - name: Clean main.md
         if: env.exists == 'true'
         run: |
-          cd ModelCardsGenerator/src/Templates
-          jq -r '.main_filler' env.json > ModelCardsGenerator/Data/main.md
+          jq -r '.main_filler' ModelCardsGenerator/src/Templates/env.json > ModelCardsGenerator/Data/main.md
 
       - name: Commit and push Model Cards
         if: env.exists == 'true'
         run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git add .
           git commit -m "Model Cards integrated"
           git pull --rebase origin ${{ github.head_ref }}
