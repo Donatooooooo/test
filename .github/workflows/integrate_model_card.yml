@@ -86,7 +86,11 @@ jobs:
       - name: Commit and push Model Cards
         if: env.exists == 'true'
         run: |
-          git add .
-          git commit -m "Model Cards integrated"
-          git pull --rebase origin ${{ github.head_ref }}
-          git push origin HEAD:${{ github.head_ref }}
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          if [[ $(git status --porcelain ModelCards/) ]]; then
+            git add .
+            git commit -m "Model Cards integrated"
+            git pull --rebase origin ${{ github.head_ref }}
+            git push origin HEAD:${{ github.head_ref }}
+          fi
